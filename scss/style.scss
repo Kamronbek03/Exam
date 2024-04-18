@@ -1,0 +1,585 @@
+@font-face {
+  font-family: "Exo 2";
+  src: url(../fonts/Exo2-Regular.ttf);
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans_Condensed-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  a {
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1280px;
+    padding: 0 20px;
+    margin: 0 auto;
+  }
+  header {
+    padding-top: 109px;
+    .head-content {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 67px;
+      .text-content {
+        margin-top: 81px;
+        h1 {
+          max-width: 610px;
+          font-family: "Exo 2";
+          font-size: 52px;
+          font-weight: 600;
+          margin-bottom: 40px;
+          color: #363738;
+        }
+        p {
+          max-width: 525px;
+          font-family: "PT Sans";
+          color: #6b6b6c;
+          margin-bottom: 40px;
+        }
+        a {
+          font-family: "PT Sans";
+          font-size: 16px;
+          font-weight: 700;
+          color: #363738;
+          border-bottom: 3px solid #ffce50;
+        }
+      }
+    }
+  }
+  main {
+    .part-1 {
+      .p1_content {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 122px 56px 80px;
+        box-shadow: 0px 4px 20px 0px #00000026;
+        border-radius: 20px;
+        margin-bottom: 67px;
+        div {
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+          max-width: 228px;
+          h5 {
+            font-family: "Exo 2";
+            font-size: 20px;
+            font-weight: 600;
+            color: #363738;
+            margin: 24px 0 16px;
+          }
+          p {
+            font-family: "PT Sans";
+            color: #6b6b6c;
+          }
+        }
+        span {
+          height: 261px;
+          border: 1px solid #d7d7dd;
+        }
+      }
+    }
+    .part-2 {
+      .img {
+        background: url(../images/png/p2-background.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-position-y: 0;
+        display: flex;
+        margin-bottom: 73px;
+        h4 {
+          margin: 178px 0 0 -680px;
+          font-family: "Exo 2";
+          font-size: 48px;
+          font-weight: 600;
+          max-width: 362px;
+          color: #fff;
+        }
+      }
+      .p2_content {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 176px;
+        padding: 0 0 120px 66px;
+        .texts {
+          display: flex;
+          flex-direction: column;
+          gap: 62px;
+          .text {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            div {
+              max-width: 291px;
+              h6 {
+                font-family: "Exo 2";
+                font-size: 20px;
+                font-weight: 600;
+                color: #363738;
+                margin-bottom: 16px;
+              }
+              p {
+                font-family: "PT Sans";
+                font-size: 16px;
+                color: #6b6b6c;
+              }
+            }
+          }
+        }
+      }
+    }
+    .part-3 {
+      h2 {
+        font-family: "Exo 2";
+        font-size: 48px;
+        font-weight: 600;
+        color: #363738;
+        margin-bottom: 32px;
+      }
+      p {
+        font-family: "PT Sans";
+        color: #6b6b6c;
+        margin-bottom: 56px;
+      }
+      .cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 212px;
+        .card {
+          max-width: 393px;
+          border-radius: 10px;
+          box-shadow: 0px 4px 15px 0px #0000001f;
+          div {
+            padding: 24px 70px 32px 32px;
+            h5 {
+              font-family: "Exo 2";
+              font-size: 20px;
+              font-weight: 600;
+              color: #363738;
+              margin-bottom: 16px;
+            }
+            p {
+              font-family: "PT Sans";
+              color: #6b6b6c;
+              margin-bottom: 32px;
+            }
+            a {
+              font-family: "Exo 2";
+              font-weight: 600;
+              color: #363738;
+              border-bottom: 3px solid #ffce50;
+            }
+          }
+        }
+      }
+    }
+    .part-4 {
+      .p4_content {
+        display: flex;
+        padding: 85px 66px 85px 81px;
+        background-color: #0b7572;
+        margin-bottom: 120px;
+        h3 {
+          font-family: "Exo 2";
+          font-size: 48px;
+          font-weight: 600;
+          color: #fff;
+          margin-top: 15px;
+        }
+        .table_content {
+          max-width: 652px;
+          width: 100%;
+          background-color: #fff;
+          padding: 28px 32px 40px;
+          border-radius: 8px;
+          div {
+            display: flex;
+            justify-content: space-between;
+            padding: 0 8px 32px 9px;
+            border-bottom: 1px solid #d7d7dd;
+            margin-bottom: 32px;
+            p {
+              max-width: 274px;
+              font-family: "PT Sans";
+              font-size: 11px;
+              color: #6b6b6c;
+            }
+          }
+          table {
+            border: 1px solid #f9f9fb;
+            thead {
+              background-color: #0b7572;
+              tr {
+                th {
+                  font-family: "Exo 2";
+                  font-weight: 600;
+                  color: #fff;
+                  padding: 8px 0;
+                  border-right: 1px solid #00000033;
+                }
+              }
+            }
+            tbody {
+              .case1 {
+                font-family: "PT Sans";
+                font-size: 14px;
+                color: #6b6b6c;
+              }
+              .case2 {
+                font-family: "Exo 2";
+                font-size: 14px;
+                font-weight: 600;
+                color: #363738;
+              }
+              .case4 {
+                font-family: "PT Sans";
+                font-size: 12px;
+                color: #363738;
+              }
+              td {
+                border: 1px solid #00000033;
+                padding: 0 16px;
+              }
+              .td1 {
+                border-left: none;
+                img {
+                  margin-top: -35px;
+                }
+              }
+              .td2 {
+                padding-bottom: 24px;
+                .case1 {
+                  display: block;
+                  width: 112px;
+                  margin: 16px 0 10px;
+                }
+              }
+              .td3 {
+                .case1 {
+                  display: block;
+                  width: 141px;
+                  margin: 10px 0 12px;
+                }
+              }
+              .td4 {
+                border-right: none;
+                .case1 {
+                  display: block;
+                  margin: 12px 0 10px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .part-5 {
+      h2 {
+        font-family: "Exo 2";
+        font-size: 48px;
+        font-weight: 600;
+        color: #363738;
+        margin-bottom: 48px;
+      }
+      .cards {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding-left: 49px;
+        margin-bottom: 120px;
+        .card {
+          width: 100%;
+          display: flex;
+          gap: 56px;
+          padding: 32px 132px 32px 96px;
+          box-shadow: 0px 4px 15px 0px #0000001f;
+          border-radius: 4px;
+          h3 {
+            font-family: "Exo 2";
+            font-size: 20px;
+            font-weight: 600;
+            color: #363738;
+            margin-bottom: 24px;
+          }
+          .gold {
+            max-width: 86px;
+            border: 3px solid #ffce50;
+            margin-bottom: 24px;
+          }
+          p {
+            font-family: "PT Sans";
+            color: #6b6b6c;
+          }
+        }
+      }
+    }
+    .part-6 {
+      margin-bottom: 130px;
+      h2 {
+        font-family: "Exo 2";
+        font-size: 48px;
+        font-weight: 600;
+        color: #363738;
+        margin-bottom: 90px;
+      }
+      .parts {
+        display: grid;
+        grid-template-columns: 2fr 0.01fr 2fr 0.01fr 2fr 0.01fr 2fr;
+        .p1 {
+          height: 183px;
+          border: 1px solid #d7d7dd;
+        }
+        .part {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h6 {
+            font-family: "Exo 2";
+            font-size: 20px;
+            font-weight: 600;
+            color: #363738;
+            margin: 32px 0 14px;
+          }
+          p {
+            font-family: "PT Sans";
+            font-size: 14px;
+            color: #6b6b6c;
+          }
+        }
+      }
+    }
+    .part-7 {
+      margin-bottom: 130px;
+      h2 {
+        font-family: "Exo 2";
+        font-size: 48px;
+        font-weight: 600;
+        color: #363738;
+        margin-bottom: 72px;
+      }
+      .cards {
+        display: flex;
+        justify-content: space-between;
+        .card {
+          max-width: 605px;
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding: 32px 172px 40px 32px;
+          box-shadow: 0px 4px 15px 0px #00000026;
+          border-left: 51px solid #0b7572;
+          border-radius: 10px;
+          h5 {
+            font-family: "Exo 2";
+            font-size: 20px;
+            font-weight: 600;
+            color: #363738;
+            margin-bottom: 12px;
+          }
+          .p1 {
+            font-family: "PT Sans";
+            font-size: 14px;
+            color: #6b6b6c;
+            margin-bottom: 16px;
+          }
+          .p2 {
+            width: 86px;
+            border: 3px solid #ffce50;
+            margin-bottom: 32px;
+          }
+          span {
+            display: flex;
+            gap: 20px;
+          }
+        }
+      }
+    }
+    .part-8 {
+      h2 {
+        font-family: "Exo 2";
+        font-size: 48px;
+        font-weight: 600;
+        color: #363738;
+        margin-bottom: 72px;
+      }
+      .p8_content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 46px;
+        .part1 {
+          max-width: 248px;
+          margin-top: 22px;
+          .content {
+            display: flex;
+            gap: 36px;
+            margin-bottom: 44px;
+            p {
+              font-family: "PT Sans";
+              font-size: 14px;
+              color: #6b6b6c;
+              margin-bottom: 8px;
+            }
+            a {
+              font-family: "Exo 2";
+              font-size: 20px;
+              font-weight: 600;
+              color: #363738;
+            }
+          }
+        }
+        .part2 {
+          max-width: 794px;
+          background-color: #f9f9fb;
+          padding: 40px 72px 56px 48px;
+          p {
+            font-family: "PT Sans";
+            color: #6b6b6c;
+          }
+          h6 {
+            font-family: "Exo 2";
+            font-size: 16px;
+            font-weight: 600;
+            color: #363738;
+          }
+          .lpart1 {
+            display: flex;
+            gap: 56px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e9eaf2;
+            margin-bottom: 32px;
+          }
+          .lpart2 {
+            display: flex;
+            gap: 180px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e9eaf2;
+            margin-bottom: 32px;
+          }
+          .lpart3 {
+            display: flex;
+            gap: 174px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #e9eaf2;
+            margin-bottom: 32px;
+          }
+          .lpart4 {
+            display: flex;
+            gap: 170px;
+          }
+        }
+      }
+    }
+  }
+  footer {
+    background-color: #0b7572;
+    padding: 59px 0 29px;
+    margin-top: 166px;
+    li {
+      list-style: none;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+      .texts {
+        display: flex;
+        gap: 97px;
+        .text1 {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          li {
+            font-family: "Exo 2";
+            font-size: 13px;
+            font-weight: 500;
+            letter-spacing: 16%;
+            color: #fff;
+          }
+        }
+        .text2 {
+          display: flex;
+          flex-direction: column;
+          gap: 25px;
+          li {
+            font-family: "Exo 2";
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 16%;
+            color: #fff;
+          }
+        }
+      }
+      .end {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-right: 139px;
+        span {
+          display: flex;
+          gap: 14px;
+        }
+        a {
+          font-family: "Exo 2";
+          font-size: 13px;
+          font-weight: 500;
+          color: #fff;
+          line-height: 19.5px;
+        }
+        button {
+          display: flex;
+          align-items: center;
+          gap: 14px;
+          padding: 7px 11px;
+          background-color: #ff9619;
+          font-family: "Open Sans";
+          font-size: 13px;
+          font-weight: 500;
+          color: #fff;
+          line-height: 19.5px;
+          border: none;
+        }
+      }
+    }
+    .the_end {
+      margin-top: 80px;
+      text-align: center;
+      font-family: "Exo 2";
+      font-weight: 500;
+      font-size: 12px;
+      letter-spacing: 16%;
+      color: #fff;
+    }
+  }
+}
+@media (max-width: 768px) {
+  body {
+    .container {
+      max-width: 750px;
+      padding: 0 30px;
+      margin: 0 auto;
+    }
+
+    header {
+      .head-content {
+        flex-direction: column;
+        gap: 73px;
+        .text-content {
+          h1 {
+            font-size: 44px;
+          }
+        }
+      }
+    }
+  }
+}

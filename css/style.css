@@ -1,0 +1,557 @@
+@font-face {
+  font-family: "Exo 2";
+  src: url(../fonts/Exo2-Regular.ttf);
+}
+@font-face {
+  font-family: "PT Sans";
+  src: url(../fonts/PTSans-Regular.ttf);
+}
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/OpenSans_Condensed-Regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body a {
+  text-decoration: none;
+}
+body .container {
+  max-width: 1280px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+body header {
+  padding-top: 109px;
+}
+body header .head-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 67px;
+}
+body header .head-content .text-content {
+  margin-top: 81px;
+}
+body header .head-content .text-content h1 {
+  max-width: 610px;
+  font-family: "Exo 2";
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: #363738;
+}
+body header .head-content .text-content p {
+  max-width: 525px;
+  font-family: "PT Sans";
+  color: #6b6b6c;
+  margin-bottom: 40px;
+}
+body header .head-content .text-content a {
+  font-family: "PT Sans";
+  font-size: 16px;
+  font-weight: 700;
+  color: #363738;
+  border-bottom: 3px solid #ffce50;
+}
+body main .part-1 .p1_content {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 122px 56px 80px;
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1490196078);
+  border-radius: 20px;
+  margin-bottom: 67px;
+}
+body main .part-1 .p1_content div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  max-width: 228px;
+}
+body main .part-1 .p1_content div h5 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  margin: 24px 0 16px;
+}
+body main .part-1 .p1_content div p {
+  font-family: "PT Sans";
+  color: #6b6b6c;
+}
+body main .part-1 .p1_content span {
+  height: 261px;
+  border: 1px solid #d7d7dd;
+}
+body main .part-2 .img {
+  background: url(../images/png/p2-background.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: 0;
+  display: flex;
+  margin-bottom: 73px;
+}
+body main .part-2 .img h4 {
+  margin: 178px 0 0 -680px;
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  max-width: 362px;
+  color: #fff;
+}
+body main .part-2 .p2_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 176px;
+  padding: 0 0 120px 66px;
+}
+body main .part-2 .p2_content .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+}
+body main .part-2 .p2_content .texts .text {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+body main .part-2 .p2_content .texts .text div {
+  max-width: 291px;
+}
+body main .part-2 .p2_content .texts .text div h6 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 16px;
+}
+body main .part-2 .p2_content .texts .text div p {
+  font-family: "PT Sans";
+  font-size: 16px;
+  color: #6b6b6c;
+}
+body main .part-3 h2 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 32px;
+}
+body main .part-3 p {
+  font-family: "PT Sans";
+  color: #6b6b6c;
+  margin-bottom: 56px;
+}
+body main .part-3 .cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 212px;
+}
+body main .part-3 .cards .card {
+  max-width: 393px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+}
+body main .part-3 .cards .card div {
+  padding: 24px 70px 32px 32px;
+}
+body main .part-3 .cards .card div h5 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 16px;
+}
+body main .part-3 .cards .card div p {
+  font-family: "PT Sans";
+  color: #6b6b6c;
+  margin-bottom: 32px;
+}
+body main .part-3 .cards .card div a {
+  font-family: "Exo 2";
+  font-weight: 600;
+  color: #363738;
+  border-bottom: 3px solid #ffce50;
+}
+body main .part-4 .p4_content {
+  display: flex;
+  padding: 85px 66px 85px 81px;
+  background-color: #0b7572;
+  margin-bottom: 120px;
+}
+body main .part-4 .p4_content h3 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 15px;
+}
+body main .part-4 .p4_content .table_content {
+  max-width: 652px;
+  width: 100%;
+  background-color: #fff;
+  padding: 28px 32px 40px;
+  border-radius: 8px;
+}
+body main .part-4 .p4_content .table_content div {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px 32px 9px;
+  border-bottom: 1px solid #d7d7dd;
+  margin-bottom: 32px;
+}
+body main .part-4 .p4_content .table_content div p {
+  max-width: 274px;
+  font-family: "PT Sans";
+  font-size: 11px;
+  color: #6b6b6c;
+}
+body main .part-4 .p4_content .table_content table {
+  border: 1px solid #f9f9fb;
+}
+body main .part-4 .p4_content .table_content table thead {
+  background-color: #0b7572;
+}
+body main .part-4 .p4_content .table_content table thead tr th {
+  font-family: "Exo 2";
+  font-weight: 600;
+  color: #fff;
+  padding: 8px 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+body main .part-4 .p4_content .table_content table tbody .case1 {
+  font-family: "PT Sans";
+  font-size: 14px;
+  color: #6b6b6c;
+}
+body main .part-4 .p4_content .table_content table tbody .case2 {
+  font-family: "Exo 2";
+  font-size: 14px;
+  font-weight: 600;
+  color: #363738;
+}
+body main .part-4 .p4_content .table_content table tbody .case4 {
+  font-family: "PT Sans";
+  font-size: 12px;
+  color: #363738;
+}
+body main .part-4 .p4_content .table_content table tbody td {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 16px;
+}
+body main .part-4 .p4_content .table_content table tbody .td1 {
+  border-left: none;
+}
+body main .part-4 .p4_content .table_content table tbody .td1 img {
+  margin-top: -35px;
+}
+body main .part-4 .p4_content .table_content table tbody .td2 {
+  padding-bottom: 24px;
+}
+body main .part-4 .p4_content .table_content table tbody .td2 .case1 {
+  display: block;
+  width: 112px;
+  margin: 16px 0 10px;
+}
+body main .part-4 .p4_content .table_content table tbody .td3 .case1 {
+  display: block;
+  width: 141px;
+  margin: 10px 0 12px;
+}
+body main .part-4 .p4_content .table_content table tbody .td4 {
+  border-right: none;
+}
+body main .part-4 .p4_content .table_content table tbody .td4 .case1 {
+  display: block;
+  margin: 12px 0 10px;
+}
+body main .part-5 h2 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 48px;
+}
+body main .part-5 .cards {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 49px;
+  margin-bottom: 120px;
+}
+body main .part-5 .cards .card {
+  width: 100%;
+  display: flex;
+  gap: 56px;
+  padding: 32px 132px 32px 96px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1215686275);
+  border-radius: 4px;
+}
+body main .part-5 .cards .card h3 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 24px;
+}
+body main .part-5 .cards .card .gold {
+  max-width: 86px;
+  border: 3px solid #ffce50;
+  margin-bottom: 24px;
+}
+body main .part-5 .cards .card p {
+  font-family: "PT Sans";
+  color: #6b6b6c;
+}
+body main .part-6 {
+  margin-bottom: 130px;
+}
+body main .part-6 h2 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 90px;
+}
+body main .part-6 .parts {
+  display: grid;
+  grid-template-columns: 2fr 0.01fr 2fr 0.01fr 2fr 0.01fr 2fr;
+}
+body main .part-6 .parts .p1 {
+  height: 183px;
+  border: 1px solid #d7d7dd;
+}
+body main .part-6 .parts .part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .part-6 .parts .part h6 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  margin: 32px 0 14px;
+}
+body main .part-6 .parts .part p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  color: #6b6b6c;
+}
+body main .part-7 {
+  margin-bottom: 130px;
+}
+body main .part-7 h2 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 72px;
+}
+body main .part-7 .cards {
+  display: flex;
+  justify-content: space-between;
+}
+body main .part-7 .cards .card {
+  max-width: 605px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 172px 40px 32px;
+  box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1490196078);
+  border-left: 51px solid #0b7572;
+  border-radius: 10px;
+}
+body main .part-7 .cards .card h5 {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 12px;
+}
+body main .part-7 .cards .card .p1 {
+  font-family: "PT Sans";
+  font-size: 14px;
+  color: #6b6b6c;
+  margin-bottom: 16px;
+}
+body main .part-7 .cards .card .p2 {
+  width: 86px;
+  border: 3px solid #ffce50;
+  margin-bottom: 32px;
+}
+body main .part-7 .cards .card span {
+  display: flex;
+  gap: 20px;
+}
+body main .part-8 h2 {
+  font-family: "Exo 2";
+  font-size: 48px;
+  font-weight: 600;
+  color: #363738;
+  margin-bottom: 72px;
+}
+body main .part-8 .p8_content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 46px;
+}
+body main .part-8 .p8_content .part1 {
+  max-width: 248px;
+  margin-top: 22px;
+}
+body main .part-8 .p8_content .part1 .content {
+  display: flex;
+  gap: 36px;
+  margin-bottom: 44px;
+}
+body main .part-8 .p8_content .part1 .content p {
+  font-family: "PT Sans";
+  font-size: 14px;
+  color: #6b6b6c;
+  margin-bottom: 8px;
+}
+body main .part-8 .p8_content .part1 .content a {
+  font-family: "Exo 2";
+  font-size: 20px;
+  font-weight: 600;
+  color: #363738;
+}
+body main .part-8 .p8_content .part2 {
+  max-width: 794px;
+  background-color: #f9f9fb;
+  padding: 40px 72px 56px 48px;
+}
+body main .part-8 .p8_content .part2 p {
+  font-family: "PT Sans";
+  color: #6b6b6c;
+}
+body main .part-8 .p8_content .part2 h6 {
+  font-family: "Exo 2";
+  font-size: 16px;
+  font-weight: 600;
+  color: #363738;
+}
+body main .part-8 .p8_content .part2 .lpart1 {
+  display: flex;
+  gap: 56px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e9eaf2;
+  margin-bottom: 32px;
+}
+body main .part-8 .p8_content .part2 .lpart2 {
+  display: flex;
+  gap: 180px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e9eaf2;
+  margin-bottom: 32px;
+}
+body main .part-8 .p8_content .part2 .lpart3 {
+  display: flex;
+  gap: 174px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #e9eaf2;
+  margin-bottom: 32px;
+}
+body main .part-8 .p8_content .part2 .lpart4 {
+  display: flex;
+  gap: 170px;
+}
+body footer {
+  background-color: #0b7572;
+  padding: 59px 0 29px;
+  margin-top: 166px;
+}
+body footer li {
+  list-style: none;
+}
+body footer .content {
+  display: flex;
+  justify-content: space-between;
+}
+body footer .content .texts {
+  display: flex;
+  gap: 97px;
+}
+body footer .content .texts .text1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body footer .content .texts .text1 li {
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 16%;
+  color: #fff;
+}
+body footer .content .texts .text2 {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+body footer .content .texts .text2 li {
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 16%;
+  color: #fff;
+}
+body footer .content .end {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 139px;
+}
+body footer .content .end span {
+  display: flex;
+  gap: 14px;
+}
+body footer .content .end a {
+  font-family: "Exo 2";
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 19.5px;
+}
+body footer .content .end button {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 7px 11px;
+  background-color: #ff9619;
+  font-family: "Open Sans";
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 19.5px;
+  border: none;
+}
+body footer .the_end {
+  margin-top: 80px;
+  text-align: center;
+  font-family: "Exo 2";
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 16%;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  body .container {
+    max-width: 750px;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
+  body header .head-content {
+    flex-direction: column;
+    gap: 73px;
+  }
+  body header .head-content .text-content h1 {
+    font-size: 44px;
+  }
+}/*# sourceMappingURL=style.css.map */
