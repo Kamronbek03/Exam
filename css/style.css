@@ -210,6 +210,7 @@ body main .part-4 .p4_content .table_content div p {
   color: #6b6b6c;
 }
 body main .part-4 .p4_content .table_content table {
+  border-spacing: 0;
   border: 1px solid #f9f9fb;
 }
 body main .part-4 .p4_content .table_content table thead {

@@ -13,6 +13,7 @@
 * {
   padding: 0;
   margin: 0;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -28,7 +29,11 @@ body {
   header {
     padding-top: 109px;
     .head-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
       margin-bottom: 67px;
       .text-content {
@@ -60,15 +65,27 @@ body {
   main {
     .part-1 {
       .p1_content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         padding: 40px 122px 56px 80px;
+        -webkit-box-shadow: 0px 4px 20px 0px #00000026;
         box-shadow: 0px 4px 20px 0px #00000026;
         border-radius: 20px;
         margin-bottom: 67px;
         div {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
+          -webkit-box-align: start;
+          -ms-flex-align: start;
           align-items: start;
           max-width: 228px;
           h5 {
@@ -95,6 +112,8 @@ body {
         background-repeat: no-repeat;
         background-position: right;
         background-position-y: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin-bottom: 73px;
         h4 {
@@ -107,16 +126,28 @@ body {
         }
       }
       .p2_content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         gap: 176px;
         padding: 0 0 120px 66px;
         .texts {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
           gap: 62px;
           .text {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             gap: 40px;
             div {
@@ -152,13 +183,19 @@ body {
         margin-bottom: 56px;
       }
       .cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
+        -ms-flex-wrap: wrap;
         flex-wrap: wrap;
         margin-bottom: 212px;
         .card {
           max-width: 393px;
           border-radius: 10px;
+          -webkit-box-shadow: 0px 4px 15px 0px #0000001f;
           box-shadow: 0px 4px 15px 0px #0000001f;
           div {
             padding: 24px 70px 32px 32px;
@@ -186,6 +223,8 @@ body {
     }
     .part-4 {
       .p4_content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         padding: 85px 66px 85px 81px;
         background-color: #0b7572;
@@ -204,7 +243,11 @@ body {
           padding: 28px 32px 40px;
           border-radius: 8px;
           div {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
             justify-content: space-between;
             padding: 0 8px 32px 9px;
             border-bottom: 1px solid #d7d7dd;
@@ -217,6 +260,7 @@ body {
             }
           }
           table {
+            border-spacing: 0;
             border: 1px solid #f9f9fb;
             thead {
               background-color: #0b7572;
@@ -293,16 +337,24 @@ body {
         margin-bottom: 48px;
       }
       .cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 24px;
         padding-left: 49px;
         margin-bottom: 120px;
         .card {
           width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
           gap: 56px;
           padding: 32px 132px 32px 96px;
+          -webkit-box-shadow: 0px 4px 15px 0px #0000001f;
           box-shadow: 0px 4px 15px 0px #0000001f;
           border-radius: 4px;
           h3 {
@@ -334,15 +386,24 @@ body {
         margin-bottom: 90px;
       }
       .parts {
+        display: -ms-grid;
         display: grid;
+        -ms-grid-columns: 2fr 0.01fr 2fr 0.01fr 2fr 0.01fr 2fr;
         grid-template-columns: 2fr 0.01fr 2fr 0.01fr 2fr 0.01fr 2fr;
         .p1 {
           height: 183px;
           border: 1px solid #d7d7dd;
         }
         .part {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
           h6 {
             font-family: "Exo 2";
@@ -369,15 +430,26 @@ body {
         margin-bottom: 72px;
       }
       .cards {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         .card {
           max-width: 605px;
           width: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
           justify-content: space-between;
           padding: 32px 172px 40px 32px;
+          -webkit-box-shadow: 0px 4px 15px 0px #00000026;
           box-shadow: 0px 4px 15px 0px #00000026;
           border-left: 51px solid #0b7572;
           border-radius: 10px;
@@ -400,6 +472,8 @@ body {
             margin-bottom: 32px;
           }
           span {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             gap: 20px;
           }
@@ -415,13 +489,19 @@ body {
         margin-bottom: 72px;
       }
       .p8_content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         margin-bottom: 46px;
         .part1 {
           max-width: 248px;
           margin-top: 22px;
           .content {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             gap: 36px;
             margin-bottom: 44px;
@@ -454,6 +534,8 @@ body {
             color: #363738;
           }
           .lpart1 {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             gap: 56px;
             padding-bottom: 16px;
@@ -461,6 +543,8 @@ body {
             margin-bottom: 32px;
           }
           .lpart2 {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             gap: 180px;
             padding-bottom: 16px;
@@ -468,6 +552,8 @@ body {
             margin-bottom: 32px;
           }
           .lpart3 {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             gap: 174px;
             padding-bottom: 16px;
@@ -475,6 +561,8 @@ body {
             margin-bottom: 32px;
           }
           .lpart4 {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             gap: 170px;
           }
@@ -490,14 +578,27 @@ body {
       list-style: none;
     }
     .content {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
       justify-content: space-between;
       .texts {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         gap: 97px;
         .text1 {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
+          -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
           justify-content: space-between;
           li {
             font-family: "Exo 2";
@@ -508,7 +609,12 @@ body {
           }
         }
         .text2 {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
           flex-direction: column;
           gap: 25px;
           li {
@@ -521,11 +627,20 @@ body {
         }
       }
       .end {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
         justify-content: space-between;
         padding-right: 139px;
         span {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
           gap: 14px;
         }
@@ -537,7 +652,11 @@ body {
           line-height: 19.5px;
         }
         button {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
           align-items: center;
           gap: 14px;
           padding: 7px 11px;
@@ -572,6 +691,9 @@ body {
 
     header {
       .head-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 73px;
         .text-content {
